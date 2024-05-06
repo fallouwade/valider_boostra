@@ -1,19 +1,68 @@
-nav, #color, #color1 div{
+nav, #color, #color1 div,#offcanvasNavbar,.dropdown, #drop1, .section1 {
 	background-color: #008275;
+	color: white !important;
+}
 
+body{
+	transition-timing-function:  ease-in-out !important;
+	transition-duration: 1s !important;
+}
+
+
+
+nav  {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0;
+    left: 0;	
+    height: 80px !important;
+    z-index: 1111;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/*nav{
+	
+	 transition: all 15s !important;
+    z-index: 997 !important;
+    height: 90px !important;
+    background-color: red;
+     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+
+    	
+}*/
+
+.orange{
+	color: orange !important;
+}
+
+#white{
+	color: white !important;
 
 }
+/*#topbar {
+   	z-index: 1111;
+    overflow: hidden !important ;
+    scroll-margin-top: 70px !important;
+    overflow: clip !important;
+    
+}*/
+/*
+#topbar {
+    background: #00796b;
+    height: 40px;
+    font-size: 14px;
+    transition: all 33s;
+    color: #fff;
+    padding: 0;
+}
+*/
+
 #color button{
 	background-color: #039b8c;
-}
-
-#color{
-	position: absolute;
-	width: 100%;
 
 }
 #color1{
-	margin-top: 400px;
+	transform: translateY(30%);
 }
 #card{
 	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -21,6 +70,22 @@ nav, #color, #color1 div{
 	
 	padding: 35px 0px;
 	color: white;
+}
+
+
+.position1{
+	position: absolute !important;
+
+
+}
+.div3{
+		height: 60vh;
+			background-color: red;
+}
+
+#position2  {
+
+
 }
 
 #input div input{
@@ -470,7 +535,9 @@ select{
 #borde #icon i {
 	font-size: 11px;
 }
-
+#color1{
+	transform: translateY(1%);
+}
 
 .sec1 h5{
 	font-size: 18px;

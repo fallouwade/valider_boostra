@@ -14,54 +14,84 @@
 	</head>
 	<body>
 		
-				
-			<nav class="navbar navbar-expand-md navbar-dark fixed-top mb-5 " >
-				<div class="container-fluid pt-1 " >	
-					 <a class="navbar-brand ms-5" href="#page-top">Impact<span>.</span></a>	
-					<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navbar" id="btn">
-						Menu
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="navbar-collapse collapse justify-content-end me-5  pe-5" id="Navbar">
-						<ul class="navbar-nav fs-5  ">
-							 <li class="nav-item"><a class="nav-link text-white" href="#services">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#portfolio">About</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#about">Services</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#team">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="#carte">Team</a></li>
-                         <li class="nav-item"><a class="nav-link text-white" href="#carte">Blog</a></li>
-                         
-		             	 <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <button class="btn text-white border-0 fs-5 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </button>
-          <ul class="dropdown-menu dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
+	<section id="topbar" class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between text-white">
+      <div class=" d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center "> <a href="mailto:contact@example.com" class="text-decoration-none text-white ps-2 ">contact@example.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span class="ps-2">+1 5589 55488 55</span></i>
+      </div>
+      <div class=" d-none d-md-flex align-items-center text-white">
+        <a href="#" class="twitter text-white"><i class="bi bi-twitter pe-3"></i></a>
+        <a href="#" class="facebook text-white"><i class="bi bi-facebook pe-3"></i></a>
+        <a href="#" class="instagram text-white"><i class="bi bi-instagram pe-3"></i></a>
+        <a href="#" class="linkedin text-white"><i class="bi bi-linkedin"></i></a>
+      </div>
     </div>
-			       		 </li>
-		                  
-	                          
-                           <li class="nav-item"><a class="nav-link text-white" href="#carte">Contact</a></li>
-						</ul>		
-					</div>
-				</div>
-			</nav>
-				<div class="bg-white p-4"></div>
-       	 	<section class="mt-5 pt-5 pb-5  text-white " id="color">
-       	 		<div class="container mb-5 pb-3">
-       	 			<div class="row">
-       	 				<div class="col-7  ">
-       	 					<h3 class="fw-bold">Welcome to impact </h3>
-       	 					<p >Sed autem laudantium dolores. Voluptatem ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+  </section>
+	
+		<section class="section1  ">
+		<nav class="navbar text-white mb-5  sticked col-12" id="sticked">
+  <div class="container-fluid text-white ms-3 me-3 fixe " >
+    <a class="navbar-brand fs-1 text-white fw-bold text-center ms-5" href="#" >Impact<span class="orange">.</span></a>
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon " id="white"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+     
+        <button type="button" class="btn-close  " id="white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">About</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link text-white" href="#">Services</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link text-white" href="#">Portfolio</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link text-white" href="#">Team</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link text-white" href="#">Blog</a>
+          </li>
+          <li class="nav-item dropdown col-12">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu " id="drop1">
+              <li><a class="dropdown-item text-white" href="#">Action</a></li>
+              <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+            </ul>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </div>
+</nav>
+				<div class=" mt-0 mt-md-5 pt-4"></div>
+       	 	<section class=" pt-5 text-white " id="color">
+       	 		<div class="container ">
+       	 			<div class="row  pt-4">
+       	 				<div class="col-12 col-md-6 mb-5 mb-md-1 ">
+       	 					<h3 class="fw-bold fs-1">Welcome to impact </h3>
+       	 					<p class=" opacity-3" >Sed autem laudantium dolores. Voluptatem ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
        	 					<div class="d-flex  flex-column flex-md-row col-12  ">
-       	 						<button class="btn btn-outline-light border-0 rounded-5 p-1 p-md-2  ps-1 ps-md-4 pe-1 pe-md-4  "   type="button">Get Started</button>
+       	 						<button class="btn btn-outline-light  rounded-5 p-1 p-md-2  ps-2 ps-md-4 pe-2 pe-md-4  "   type="button">Get Started</button>
        	 							<div>
        	 						<i class="bi bi-play-circle fs-4 ps-3  "></i>
        	 						<span class="pt-2 ps-2">
@@ -70,7 +100,7 @@
        	 						</div>
        	 					</div>
        	 				</div>
-       	 				<div class="col-5" >
+       	 				<div class=" col-12 col-md-6" >
        	 					<img src="img/logo1.jpg" class="col-12">
        	 				</div>
        	 			</div>
@@ -79,7 +109,7 @@
        	 		
        	 	</section>
 
-       	 	<div class="col-12 row d-flex justify-content-center ps-4 ps-md-0 "  id="color1">
+       	 	<div class="col-12 row d-flex justify-content-center ps-4  ps-md-0 "  id="color1">
 	       	 			<div class="card text-center col-5 col-md-2 mb-2 mb-md-3"  id="card">
 		 			
 		 					 <i class=" fs-1 bi bi-easel card-img-top"></i>
@@ -112,50 +142,59 @@
 					   				 <p class="card-text">Nemo Enim </p>
 					  		</div>
 						</div>
+		</section>
        	 				
        	 			</div>
        	 			<div class="d-flex justify-content-end text-danger fs-1 rounded-5"><i class="bi bi-file-arrow-up-fill"></i></div>
-       	 			<section class="container ">
+       	 			<section class="container mt-5 ">
        	 				<h3 class="text-center">About Us</h3>
-       	 				<div class="niveau"></div>
-       	 				<p class="text-center text-muted">Aperiam dolorum et et wula mmolestias qui eveniet numquam nihi prro incidunt dolores sunt id nobis omnis tiledo stran delop </p>
+       	 				<div class="niveau mt-2 "></div>
+       	 				<p class="text-center text-muted pt-4">Aperiam dolorum et et wula mmolestias qui eveniet numquam nihi prro incidunt dolores sunt id nobis omnis tiledo stran delop </p>
 
-       	 				<div class="row mt-5 ">
+       	 				<div class="row mt-5 mb-5 pb-5">
        	 					<div class="col-12 col-md-6 ">
        	 						<h3 class="fw-bold">Voluptatem dignissimoos provident quasi corporis</h3>
        	 						<div>
-       	 							<img src="img/logo2.jpg" class="rounded-4 col-11">
+       	 							<img src="img/logo2.jpg" class="rounded-4 col-11 mt-3 mb-3">
        	 						</div>
-       	 						<p class="col-11 text-muted">Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.</p>
-       	 						<p class="col-11 text-muted">Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupidate nihil vitae quo officia vel. Blanditis es eligendi possimus et in cum. Quidem eos ut sint rem vniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus</p>
+       	 						<p class="col-11 ">Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.</p>
+       	 						<p class="col-11 ">Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupidate nihil vitae quo officia vel. Blanditis es eligendi possimus et in cum. Quidem eos ut sint rem vniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus</p>
 
        	 					</div>
        	 					<div class="col-12 col-md-6" id="input">
-       	 						<p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+       	 						<p class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
        	 						<div class="d-flex border-0 mb-1 bg-white" id="span">
     								<input class="form-check-input mt-1  " checked  type="checkbox" value="" >
-    								<label class="text-muted">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</label>
+    								<label class="">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</label>
  								 </div>
 
  								 <div class="d-flex border-0 mb-1 bg-white" id="span">
     								<input class="form-check-input mt-1  " checked  type="checkbox" value="" >
-    								<label class="text-muted">Duis aute irure dolor in reprehenderit in voluptate velit.</label>
+    								<label class="">Duis aute irure dolor in reprehenderit in voluptate velit.</label>
  								 </div>
 
  								 <div class=" border-0 bg-white d-flex " id="span">
     								<input class="form-check-input mt-1  " checked  type="checkbox"  value="" >
-    								<label class="span text-muted" >Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur</label>
+    								<label class="span " >Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur</label>
  								 </div>
 
- 								 	<p class="text-muted">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+ 								 	<p class="pt-3">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
 
- 								 	<div>
- 								 		<img src="img/img1.jpg" class="rounded-4 col-11">
+ 								 	<div class="div3  container">
+ 								 	<div class="position1 col-10  col-md-5  ">
+ 								 		<img src="img/img1.jpg" class="rounded-4 col-12 mt-3 ">
  								 	</div>
+ 								 	<!-- <div id="position2 ">
+ 								 		<div class="play  col-1 m-auto  " >
+       	 							<i class="bi bi-play-fill fs-2"></i>
+       	 						</div>
+       	 					</div> -->
+       	 					
+ 								 </div>
        	 					</div>
        	 				</div>
        	 			</section>
-       	 			<div class="container mt-4  mt-md-1" id="partenaire">
+       	 			<div class="container mt-5  mt-md-1" id="partenaire">
        	 				<div class="row ">
        	 					<img src="img/partenaire1.jpg" class="col-2">
        	 					<img src="img/partenaire2.jpg" class="col-2">
@@ -165,8 +204,8 @@
        	 					<img src="img/partenaire6.jpg" class="col-2">
        	 				</div>
        	 			</div>
-       	 			<div class="container mt-3 mt-md-5">
-       	 				<div class="row">
+       	 			<div class="container mt-5 mt-md-5">
+       	 				<div class="row mt-5 mb-5 pb-5 pt-5">
        	 					<div class="col-12 col-md-6"><img src="img/logo3.jpg" class="col-11"></div>
 
        	 					<div class="col-12 col-md-6">
